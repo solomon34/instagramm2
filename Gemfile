@@ -18,8 +18,10 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7' 
 
-gem 'haml', '~> 4.0', '>= 4.0.7' 
-gem 'simple_form', '~> 3.5'
+
+
+gem 'haml', '~> 5.1', '>= 5.1.2' 
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 
 # Use Redis adapter to run Action Cable in production
