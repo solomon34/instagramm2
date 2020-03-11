@@ -1,0 +1,17 @@
+-Bundler could not find compatible versions for gem "actionpack":
+  In snapshot (Gemfile.lock):
+    actionpack (= 6.0.2.1)
+
+  In Gemfile:
+    rails (~> 6.0.2, >= 6.0.2.1) was resolved to 6.0.2.1, which depends on
+      actionpack (= 6.0.2.1)
+
+    simple_form (~> 3.5) was resolved to 3.5.1, which depends on
+      actionpack (> 4, < 5.2)
+
+    rails (~> 6.0.2, >= 6.0.2.1) was resolved to 6.0.2.1, which depends on
+      sprockets-rails (>= 2.0.0) was resolved to 3.2.1, which depends on
+        actionpack (>= 4.0)
+
+  Running `bundle update` will rebuild your snapshot from scratch, using only
+  the gems in your Gemfile, which may resolve the conflict.
