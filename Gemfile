@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.4'
+ ruby '2.6.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -22,7 +22,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'haml', '~> 5.1', '>= 5.1.2' 
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+#gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
