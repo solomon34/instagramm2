@@ -17,9 +17,9 @@
   the gems in your Gemfile, which may resolve the conflict.
 
 
-  We're sorry but something went wrong error;
+- We're sorry but something went wrong error;
   Gemfile had;
-  gem 'bootstrap-sass', '~> 3.2.0.2'
+  gem 'bootstrap-sass', '~> 3.2.0.2' which was the wrong version of the gem
 
   I (Baba) changed to
   gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
