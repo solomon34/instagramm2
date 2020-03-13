@@ -24,4 +24,18 @@
   I (Baba) changed to
   gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
   which corrected the Bug.  Solomon I wouldn't expect you to find this error at the coding stage where you are now.
+
+  
+  _form.html.haml file error
+  syntax error, unexpected end-of-input, expecting end 
+
+  Your code had this;
+
+        - @pic.erros.full_message.each do |msg| 
+        %li= msg
+
+  Indentation error, this is what it should be
+  
+          - @pic.erros.full_message.each do |msg| 
+            %li= msg      
  
